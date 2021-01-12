@@ -29,6 +29,13 @@ data_annual <- get_saq_simple_summaries(summary = "annual_means")
 
 }
 
+\dontrun{
+
+# Import monthly means, quite a large request so will take some time
+data_month <- get_saq_simple_summaries(summary = "monthly_means")
+
+}
+
 }
 \author{
 Stuart K. Grange.
